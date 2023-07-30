@@ -44,7 +44,7 @@ class Home extends ConsumerWidget {
                         'users', FirebaseAuth.instance.currentUser!.uid)
                     .asStream();
               },
-              child: const Text('UID')),
+              child: const Text('Test 2')),
         )
       ]),
     );
